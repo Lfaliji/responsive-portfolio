@@ -28,7 +28,7 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
+    <header class="homepage-hero">
       <h1>Nadia Nsayi</h1>
       <p class="hero-subtitle">
         Political scientist, columnist, and author exploring decolonial history
@@ -41,66 +41,83 @@
       </p>
     </header>
     <main>
-      <div class="container">
+      <div class="container focus-columns-section">
         <div class="row">
-          <div class="col-6">
+          <div class="col-7 mb-5">
             <h2>Focus & Themes</h2>
-            <ul>
+            <ul class="focus-themes-list">
               <li>Decolonial history</li>
               <li>Memory and historical justice</li>
               <li>Archival research and narrative writing</li>
               <li>Black feminism</li>
             </ul>
-            <a href="#">View Books & Forewords</a>
+            <a href="#" class="btn btn-dark shadow fs-4"
+              >View Books & Forewords</a
+            >
           </div>
-          <div class="col-6">
+          <div class="col-5 mb-5">
             <h2>Columns</h2>
-            <p>
+            <p class="columns-text">
               Nadia Nsayi’s column on socially relevant themes is published
               every four weeks.
             </p>
-            <a href="#">Read recent columns → </a>
+            <a href="#" class="btn btn-dark shadow fs-4"
+              >Read recent columns →
+            </a>
           </div>
         </div>
       </div>
-      <div class="container">
-        <h2>News</h2>
+      <div class="container mt-5">
+        <h2 class="ms-5">News</h2>
         <article class="row">
           <div class="col-4">
             <img
               src="/images/cover_new_book_homepage.png"
               alt="Book cover of long-awaited Fille de la décolonisation"
-              class="new-book-cover"
+              class="new-book-cover ms-5 mt-3"
             />
           </div>
-          <div class="col-8">
+          <div class="col-8 new-book-cover-description">
             <p>
               Nadia Nsayi is currently preparing the long-awaited French
               translation of her Dutch book Daughter of Decolonization.
               Responding to strong demand, Fille de la décolonisation will make
               this work accessible to a wider French-speaking audience.
-              Publication scheduled for 2026. Price and shipping details will be
-              confirmed prior to release.
+              Publication scheduled for 2026. <br />
+              Price and shipping details will be confirmed prior to release.
             </p>
-            <a href="#">Pre-Order a Signed Copy HERE </a>
+            <a href="#" class="btn btn-grey fs-4"
+              >Pre-Order a Signed Copy <br />
+              HERE
+            </a>
           </div>
         </article>
       </div>
       <div class="newsletter-subscription">
-        <h2>
+        <h2 class="newsletter-subscription-text mb-3">
           Stay informed about her contributions to public debate, reflection,
           and connection.
         </h2>
-        <a href="#">Subscribe to the Newsletter</a>
+        <a href="#" class="btn btn-dark shadow fs-4 mb-5 newsletter-btn"
+          >Subscribe to the Newsletter</a
+        >
       </div>
     </main>
-    <footer>
-      <p>© 2026 Nadia Nsayi. All rights reserved.</p>
-      <ul class="social-media-icons">
-        <li><i class="fa-brands fa-facebook"></i></li>
-        <li><i class="fa-brands fa-instagram"></i></li>
-        <li><i class="fa-brands fa-linkedin"></i></li>
-      </ul>
-    </footer>
+    <div class="container">
+      <footer class="row align-items-center">
+        <div class="col-5">
+          <p class="copyright-mention mb-0">
+            © 2026 Nadia Nsayi. All rights reserved.
+          </p>
+        </div>
+        <div class="col-7 d-flex align-items-center">
+          <ul class="social-media-icons mb-0 ms-5">
+            <li><i class="fa-brands fa-facebook me-4 fs-5"></i></li>
+            <li><i class="fa-brands fa-instagram me-4 fs-5"></i></li>
+            <li><i class="fa-brands fa-linkedin me-4 fs-5"></i></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
