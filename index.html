@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Official website of Nadia Nsayi, political scientist, columnist, and author exploring decolonial history."
+    />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
@@ -25,9 +29,42 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="/src/styles.css" />
-    <title>Document</title>
+    <title>Political scientist & Author | Nadia Nsayi</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/"
+          ><img
+            src="/images/navbar-logo_nsayi.png"
+            alt="Brand logo Nadia Nsayi"
+            class="navbar-logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+            <a class="nav-link" href="/about.html" title="About Nadia Nsayi"
+              >About</a
+            >
+            <a class="nav-link" href="/books.html" title="Books">Books</a>
+            <a class="nav-link" href="/contact.html" title="Contact Nadia Nsayi"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
     <header class="homepage-hero">
       <h1>Nadia Nsayi</h1>
       <p class="hero-subtitle">
@@ -43,7 +80,7 @@
     <main>
       <div class="container focus-columns-section">
         <div class="row">
-          <div class="col-7 mb-5">
+          <div class="col-md-7 mb-5">
             <h2>Focus & Themes</h2>
             <ul class="focus-themes-list">
               <li>Decolonial history</li>
@@ -51,33 +88,41 @@
               <li>Archival research and narrative writing</li>
               <li>Black feminism</li>
             </ul>
-            <a href="#" class="btn btn-dark shadow fs-4"
+            <a
+              href="/books.html"
+              class="btn btn-dark shadow main-btn"
+              target="_blank"
+              title="Learn more..."
               >View Books & Forewords</a
             >
           </div>
-          <div class="col-5 mb-5">
+          <div class="col-md-5 mb-5">
             <h2>Columns</h2>
             <p class="columns-text">
               Nadia Nsayi’s column on socially relevant themes is published
               every four weeks.
             </p>
-            <a href="#" class="btn btn-dark shadow fs-4"
+            <a
+              href="https://www.demorgen.be/columns/Nadia-Nsayi"
+              class="btn btn-dark shadow main-btn"
+              target="_blank"
+              title="Read columns"
               >Read recent columns →
             </a>
           </div>
         </div>
       </div>
-      <div class="container mt-5">
-        <h2 class="ms-5">News</h2>
-        <article class="row">
-          <div class="col-4">
+      <div class="container mt-md-5">
+        <h2 class="ms-3">News</h2>
+        <article class="row align-items-center g-4">
+          <div class="col-md-4">
             <img
               src="/images/cover_new_book_homepage.png"
               alt="Book cover of long-awaited Fille de la décolonisation"
-              class="new-book-cover ms-5 mt-3"
+              class="new-book-cover img-fluid mt-md-3"
             />
           </div>
-          <div class="col-8 new-book-cover-description">
+          <div class="col-md-8 new-book-cover-description">
             <p>
               Nadia Nsayi is currently preparing the long-awaited French
               translation of her Dutch book Daughter of Decolonization.
@@ -86,10 +131,12 @@
               Publication scheduled for 2026. <br />
               Price and shipping details will be confirmed prior to release.
             </p>
-            <a href="#" class="btn btn-grey fs-4"
-              >Pre-Order a Signed Copy <br />
-              HERE
-            </a>
+            <div class="d-flex justify-content-start order-btn">
+              <a href="#" class="btn btn-grey" title="Get a signed copy"
+                >Pre-Order a Signed Copy <br />
+                HERE
+              </a>
+            </div>
           </div>
         </article>
       </div>
@@ -98,23 +145,43 @@
           Stay informed about her contributions to public debate, reflection,
           and connection.
         </h2>
-        <a href="#" class="btn btn-dark shadow fs-4 mb-5 newsletter-btn"
+        <a
+          href="#"
+          class="btn btn-dark shadow mb-5 newsletter-btn"
+          title="Newsletter subscription"
           >Subscribe to the Newsletter</a
         >
       </div>
     </main>
     <div class="container">
-      <footer class="row align-items-center">
-        <div class="col-5">
+      <footer class="row align-items-center footer-homepage">
+        <div class="col-12 col-md-5">
           <p class="copyright-mention mb-0">
             © 2026 Nadia Nsayi. All rights reserved.
           </p>
         </div>
-        <div class="col-7 d-flex align-items-center">
-          <ul class="social-media-icons mb-0 ms-5">
-            <li><i class="fa-brands fa-facebook me-4 fs-5"></i></li>
-            <li><i class="fa-brands fa-instagram me-4 fs-5"></i></li>
-            <li><i class="fa-brands fa-linkedin me-4 fs-5"></i></li>
+        <div class="col-12 col-md-7 d-md-flex align-items-center">
+          <ul class="social-media-icons mb-0 ms-0 ms-md-5">
+            <li>
+              <a href="https://www.facebook.com/nadia.nsayi" target="_blank"
+                ><i class="fa-brands fa-facebook me-4 fs-5" title="Facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/nadiansayi/" target="_blank"
+                ><i
+                  class="fa-brands fa-instagram me-4 fs-5"
+                  title="Instagram"
+                ></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://be.linkedin.com/in/nadia-nsayi-66a62388"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin me-4 fs-5" title="LinkedIn"></i
+              ></a>
+            </li>
           </ul>
         </div>
       </footer>
