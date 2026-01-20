@@ -19,14 +19,6 @@ h2 {
   font-size: 48px;
 }
 
-.focus-themes-list {
-  font-size: 24px;
-}
-
-.columns-text {
-  font-size: 24px;
-}
-
 .hero-subtitle {
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -46,6 +38,14 @@ h2 {
   padding-right: 24px;
 }
 
+.focus-themes-list {
+  font-size: 24px;
+}
+
+.columns-text {
+  font-size: 24px;
+}
+
 .newsletter-subscription {
   margin: 80px auto 0;
   max-width: 900px;
@@ -60,6 +60,10 @@ h2 {
   line-height: 46px;
 }
 
+.newsletter-btn {
+  padding: 10px 20px;
+}
+
 .new-book-cover {
   max-width: 100%;
   height: auto;
@@ -71,6 +75,46 @@ h2 {
   line-height: 150%;
   font-size: 18px;
   margin-top: 0;
+}
+
+.btn-link {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+}
+
+.btn-grey {
+  background-color: #e6e6e6;
+  color: #000000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  margin-top: 10px;
+  padding: 10px 20px;
+}
+
+.btn-grey:hover {
+  background-color: #e6e6e699;
+}
+
+.main-btn,
+.order-btn,
+.newsletter-btn {
+  font-size: 18px;
+  padding: 12px 24px;
+}
+
+.focus-columns-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.navbar-logo {
+  max-width: 150px;
+}
+
+.footer-homepage {
+  margin-bottom: 20px;
 }
 
 .copyright-mention {
@@ -97,50 +141,6 @@ h2 {
 .social-media-icons a {
   text-decoration: none;
   color: #000000;
-}
-
-.btn-link {
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 150%;
-}
-
-.btn-grey {
-  background-color: #e6e6e6;
-  color: #000000;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-  margin-top: 10px;
-  padding: 10px 20px;
-}
-
-.btn-grey:hover {
-  background-color: #e6e6e699;
-}
-
-.footer-homepage {
-  margin-bottom: 20px;
-}
-
-.newsletter-btn {
-  padding: 10px 20px;
-}
-
-.main-btn,
-.order-btn,
-.newsletter-btn {
-  font-size: 18px;
-  padding: 12px 24px;
-}
-
-.focus-columns-section {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding-left: 24px;
-  padding-right: 24px;
-}
-
-.navbar-logo {
-  max-width: 150px;
 }
 
 @media (max-width: 576px) {
@@ -179,8 +179,13 @@ h2 {
   .focus-themes-list li {
     font-size: 12px;
   }
+
   .columns-text {
     font-size: 12px;
+  }
+
+  .newsletter-subscription {
+    margin: 50px auto 0;
   }
 
   .newsletter-subscription-text {
@@ -211,10 +216,6 @@ h2 {
     padding-left: 0;
   }
 
-  .newsletter-subscription {
-    margin: 50px auto 0;
-  }
-
   .newsletter-subscription,
   .new-book-cover-description {
     text-align: left;
@@ -240,6 +241,10 @@ h2 {
 @media (min-width: 992px) {
   h1 {
     margin-right: 75px;
+  }
+
+  .new-book-cover {
+    max-width: 80%;
   }
 
   .navbar-nav .nav-link {
