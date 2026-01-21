@@ -264,3 +264,36 @@ h2 {
     font-size: 30px;
   }
 }
+
+.last-name-form {
+}
+
+label {
+  display: block;
+  margin-top: 24px;
+}
+
+.contact-form-header {
+  margin-bottom: 63px;
+}
+
+.submit-button {
+  padding: 16px 32px;
+  width: 626px;
+  display: block;
+  margin-bottom: 150px;
+}
+
+.container-contact-page {
+  text-align: left;
+  margin: 200px 800px;
+}
+
+.form-message {
+  display: block;
+  margin-bottom: 24px;
+}
+
+.submit-file-input {
+  margin-bottom: 24px;
+}
