@@ -12,6 +12,9 @@
   --h3-size: 32px;
 }
 
+body {
+  font-family: var(--font-primary);
+}
 .homepage-hero {
   margin: 180px auto 0;
   max-width: 900px;
@@ -94,6 +97,7 @@ h3 {
   font-weight: 500;
   font-size: 24px;
   line-height: var(--line-height);
+  text-decoration: none;
 }
 
 .btn-grey {
@@ -106,6 +110,7 @@ h3 {
 
 .btn-grey:hover {
   background-color: #e6e6e699;
+  color: var(--color-grey-text);
 }
 
 .main-btn,
@@ -300,7 +305,8 @@ input {
 }
 
 .contact-page-container {
-  margin: 200px 350px 0 450px;
+  margin: 200px auto 0;
+
   max-width: 900px;
 }
 
@@ -324,4 +330,126 @@ input {
   margin: 80px 0;
   font-size: 20px;
   font-weight: 500;
+}
+.about-page-profile-image {
+  width: 584px;
+  height: 550px;
+  margin-top: 21px;
+  margin-bottom: 57px;
+}
+
+.about-page-speaker-image {
+  width: 404px;
+  height: 295px;
+  margin-top: 21px;
+}
+
+.about-page-container {
+  margin: 150px auto 0;
+  max-width: 1200px;
+}
+
+.about-page-header-subtitle {
+  font-size: 24px;
+  color: var(--color-grey-text);
+}
+
+.about-page-header-paragraph {
+  font-size: 20px;
+  margin-bottom: 21px;
+}
+
+.about-page-btn {
+  margin-bottom: 27px;
+  font-size: 24px;
+  padding: 12px 24px;
+}
+
+.about-page-main-header {
+  margin-top: 20px;
+}
+
+.about-page-main-subtitle {
+  font-size: 40px;
+}
+
+.about-page-main-subtitle-paragraph {
+  font-size: 24px;
+  color: var(--color-grey-text);
+}
+
+.about-page-conference-section {
+  padding-left: 65px;
+  padding-top: 35px;
+}
+
+.books-container {
+  margin: 150px auto 0;
+  max-width: 1200px;
+}
+
+.books-image-1 {
+  width: 293px;
+  height: 395px;
+  margin-bottom: 74px;
+}
+
+.books-image-2 {
+  width: 293px;
+  height: 395px;
+}
+
+.books-image-3 {
+  width: 293px;
+  height: 395px;
+}
+
+.books-paragraph {
+  font-size: 20px;
+  line-height: var(--line-height);
+  font-weight: 500;
+}
+
+.books-header {
+  margin-left: 200px;
+  margin-bottom: 60px;
+}
+
+.books-header-header {
+  font-size: 24px;
+  line-height: var(--line-height);
+  font-weight: 400;
+  color: var(--color-grey-text);
+}
+
+.books-subtitle-header {
+  font-size: 24px;
+  line-height: var(--line-height);
+  font-weight: 400;
+  margin-bottom: 33px;
+}
+
+.books-row2 {
+  margin-bottom: 51px;
+  text-align: right;
+}
+
+.books-row3 {
+  margin-bottom: 72px;
+}
+
+.book-description-1 {
+  max-width: 700px;
+  padding: 35px;
+}
+
+.book-description-2 {
+  max-width: 700px;
+  padding: 35px;
+  text-align: left;
+}
+
+.book-description-3 {
+  max-width: 700px;
+  padding: 40px;
 }
