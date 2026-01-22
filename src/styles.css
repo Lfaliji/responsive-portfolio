@@ -7,8 +7,9 @@
   --font-secondary: "Roboto", sans-serif;
 
   --h1-size: 64px;
-  --h1-line: 77px;
+  --line-height: 150%;
   --h2-size: 48px;
+  --h3-size: 32px;
 }
 
 .homepage-hero {
@@ -23,7 +24,7 @@ h1 {
   font-family: var(--font-primary);
   font-weight: 700;
   font-size: var(--h1-size);
-  line-height: var(--h1-line);
+  line-height: var(--line-height);
   color: var(--color-black);
   margin-right: 0;
 }
@@ -32,11 +33,16 @@ h2 {
   font-size: var(--h2-size);
 }
 
+h3 {
+  font-size: var(--h3-size);
+  line-height: var(--line-height);
+}
+
 .hero-subtitle {
   font-family: var(--font-primary);
   font-weight: 400;
   font-size: 24px;
-  line-height: 150%;
+  line-height: var(--line-height);
   color: var(--color-grey-text);
   margin-top: 25px;
 }
@@ -44,7 +50,7 @@ h2 {
 .hero-description {
   font-weight: 500;
   font-size: 20px;
-  line-height: 150%;
+  line-height: var(--line-height);
   color: var(--color-black);
   margin: 0 0 180px;
   padding-left: 24px;
@@ -61,7 +67,7 @@ h2 {
 
 .new-book-cover-description {
   font-weight: 500;
-  line-height: 150%;
+  line-height: var(--line-height);
   font-size: 18px;
   margin-top: 0;
 }
@@ -87,7 +93,7 @@ h2 {
 .btn-link {
   font-weight: 500;
   font-size: 24px;
-  line-height: 150%;
+  line-height: var(--line-height);
 }
 
 .btn-grey {
@@ -186,7 +192,7 @@ h2 {
   .hero-description {
     margin: 16px 0 60px 0;
     font-size: 12px;
-    line-height: 150%;
+    line-height: var(--line-height);
   }
 
   .focus-themes-list li {
@@ -261,16 +267,25 @@ h2 {
   }
 
   .navbar-nav .nav-link {
-    font-size: 30px;
+    font-size: 20px;
+    margin-left: 60px;
   }
 }
 
-.last-name-form {
+.form-group {
+  margin: 80px 0;
 }
 
 label {
   display: block;
   margin-top: 24px;
+  font-size: 16px;
+  line-height: var(--line-height);
+  font-weight: 500;
+}
+
+input {
+  margin-top: 8px;
 }
 
 .contact-form-header {
@@ -284,9 +299,9 @@ label {
   margin-bottom: 150px;
 }
 
-.container-contact-page {
-  text-align: left;
-  margin: 200px 800px;
+.contact-page-container {
+  margin: 200px 350px 0 450px;
+  max-width: 900px;
 }
 
 .form-message {
@@ -296,4 +311,17 @@ label {
 
 .submit-file-input {
   margin-bottom: 24px;
+}
+
+.contact-page-header-paragraph {
+  color: var(--color-grey-text);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: var(--line-height);
+}
+
+.contact-page-main {
+  margin: 80px 0;
+  font-size: 20px;
+  font-weight: 500;
 }
