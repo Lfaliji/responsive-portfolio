@@ -73,6 +73,8 @@ h3 {
   line-height: var(--line-height);
   font-size: 18px;
   margin-top: 0;
+  max-width: 650px;
+  margin-left: -40px;
 }
 
 .newsletter-subscription {
@@ -91,6 +93,7 @@ h3 {
 
 .newsletter-btn {
   padding: 10px 20px;
+  margin-bottom: 60px;
 }
 
 .btn-link {
@@ -120,6 +123,10 @@ h3 {
   padding: 12px 24px;
 }
 
+.order-btn {
+  margin-left: 100px;
+}
+
 .focus-columns-section {
   max-width: 1200px;
   margin: 0 auto;
@@ -137,7 +144,7 @@ h3 {
   max-width: 150px;
 }
 
-.footer-homepage {
+footer {
   margin-bottom: 20px;
 }
 
@@ -217,11 +224,6 @@ h3 {
     line-height: 1;
   }
 
-  .new-book-cover {
-    max-width: 50%;
-    height: auto;
-  }
-
   .new-book-cover-description {
     font-size: 12px;
     padding-left: 20px;
@@ -250,7 +252,7 @@ h3 {
     margin-left: 0;
   }
 
-  .footer-homepage {
+  footer {
     text-align: center;
   }
 
@@ -298,21 +300,19 @@ input {
 }
 
 .submit-button {
-  padding: 16px 32px;
-  width: 626px;
-  display: block;
   margin-bottom: 150px;
+  width: 100%;
+  padding: 16px 32px;
 }
 
 .contact-page-container {
-  margin: 200px auto 0;
+  margin: 180px auto 0;
 
-  max-width: 900px;
+  max-width: 700px;
 }
 
 .form-message {
-  display: block;
-  margin-bottom: 24px;
+  height: 180px;
 }
 
 .submit-file-input {
@@ -345,7 +345,7 @@ input {
 }
 
 .about-page-container {
-  margin: 150px auto 0;
+  margin: 180px auto 0;
   max-width: 1200px;
 }
 
@@ -363,6 +363,7 @@ input {
   margin-bottom: 27px;
   font-size: 24px;
   padding: 12px 24px;
+  margin-bottom: 80px;
 }
 
 .about-page-main-header {
@@ -384,7 +385,7 @@ input {
 }
 
 .books-container {
-  margin: 150px auto 0;
+  margin: 180px auto 0;
   max-width: 1200px;
 }
 
@@ -452,4 +453,9 @@ input {
 .book-description-3 {
   max-width: 700px;
   padding: 40px;
+}
+
+
+.submit-file-input {
+  max-width: 300px;
 }
