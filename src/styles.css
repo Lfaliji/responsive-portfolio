@@ -478,3 +478,15 @@ input {
   font-style: italic;
   opacity: 0.7;
 }
+
+.picture-book-speaker {
+  margin-top: 230px;
+  max-width: 500px;
+  height: 595px;
+}
+
+.picture-new-book-release {
+  margin-top: 100px;
+  max-width: 500px;
+  height: 595px;
+}

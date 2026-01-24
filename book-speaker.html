@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="/src/styles.css" />
     <title>Signed Edition Pre-Order | Fille de la décolonisation</title>
   </head>
-  <body>
+  <body class="book-speaker-page">
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="/"
@@ -68,128 +68,151 @@
         </div>
       </div>
     </nav>
-    <div class="form-page-container">
-      <form
-        name="book-speaker"
-        method="post"
-        data-netlify="true"
-        enctype="multipart/form-data"
-      >
-        <input type="hidden" name="form-name" value="book-speaker" />
-        <div class="form-group">
-          <h1 class="pre-order-form-header">Book Nadia Nsayi as a Speaker</h1>
-          <p>
-            Thank you for your interest in inviting Nadia Nsayi to speak at your
-            event. Please complete the form below with the details of your
-            request. You will be contacted as soon as possible.
-          </p>
-          <div class="row">
-            <div class="col-6">
-              <label for="first-name">First name</label
-              ><input
-                type="text"
-                id="first-name"
-                name="first-name"
-                placeholder="e.g. Patrice"
-                class="form-control"
-                required
-                minlength="2"
-              />
-            </div>
-            <div class="col-6">
-              <label for="last-name" class="last-name-form">Last name</label>
-              <input
-                type="text"
-                id="last-name"
-                name="last-name"
-                placeholder="e.g. Lumumba"
-                class="form-control"
-                required
-                minlength="2"
-              />
-            </div>
-          </div>
-          <label for="organization-name" class="organization-name-form"
-            >Organization</label
-          >
-          <input
-            type="text"
-            id="organization-name"
-            name="organization-name"
-            placeholder="Name of company, school, or organization (optional)"
-            class="form-control"
-            minlength="2"
-          />
-          <label for="email-address">Email address</label>
-          <input
-            type="email"
-            name="email"
-            id="email-address"
-            placeholder="name@example.com"
-            class="form-control"
-            required
-          />
-
-          <label for="event-details">Event & Audience Details</label>
-          <textarea
-            id="event-details"
-            name="event-details"
-            placeholder="Briefly describe event date, location (or virtual platform), expected audience size, theme/topic, budget range, and any special notes."
-            minlength="20"
-            class="form-message form-control"
-            required
-          ></textarea>
-
-          <label for="submit-file"
-            >Attach a file to your booking (optional)</label
-          >
-          <input
-            type="file"
-            id="submit-file"
-            name="submit-file"
-            class="submit-file-input form-control"
-          />
-          <input
-            type="submit"
-            value="Submit Booking Request"
-            class="submit-button form-control btn btn-dark mt-3"
-          />
-        </div>
-      </form>
-    </div>
-
     <div class="container">
-      <footer class="row align-items-center">
-        <div class="col-12 col-md-4">
-          <p class="copyright-mention mb-0">
-            © 2026 Nadia Nsayi. All rights reserved.
-          </p>
+      <div class="row">
+        <div class="col-6">
+          <div class="form-page-container">
+            <form
+              name="book-speaker"
+              method="post"
+              data-netlify="true"
+              enctype="multipart/form-data"
+            >
+              <input type="hidden" name="form-name" value="book-speaker" />
+              <div class="form-group">
+                <h1 class="pre-order-form-header">
+                  Book Nadia Nsayi as a Speaker
+                </h1>
+                <p>
+                  Thank you for your interest in inviting Nadia Nsayi to speak
+                  at your event. Please complete the form below with the details
+                  of your request. You will be contacted as soon as possible.
+                </p>
+                <div class="row">
+                  <div class="col-6">
+                    <label for="first-name">First name</label
+                    ><input
+                      type="text"
+                      id="first-name"
+                      name="first-name"
+                      placeholder="e.g. Patrice"
+                      class="form-control"
+                      required
+                      minlength="2"
+                    />
+                  </div>
+                  <div class="col-6">
+                    <label for="last-name" class="last-name-form"
+                      >Last name</label
+                    >
+                    <input
+                      type="text"
+                      id="last-name"
+                      name="last-name"
+                      placeholder="e.g. Lumumba"
+                      class="form-control"
+                      required
+                      minlength="2"
+                    />
+                  </div>
+                </div>
+                <label for="organization-name" class="organization-name-form"
+                  >Organization</label
+                >
+                <input
+                  type="text"
+                  id="organization-name"
+                  name="organization-name"
+                  placeholder="Name of company, school, or organization (optional)"
+                  class="form-control"
+                  minlength="2"
+                />
+                <label for="email-address">Email address</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email-address"
+                  placeholder="name@example.com"
+                  class="form-control"
+                  required
+                />
+
+                <label for="event-details">Event & Audience Details</label>
+                <textarea
+                  id="event-details"
+                  name="event-details"
+                  placeholder="Briefly describe event date, location (or virtual platform), expected audience size, theme/topic, budget range, and any special notes."
+                  minlength="20"
+                  class="form-message form-control"
+                  required
+                ></textarea>
+
+                <label for="submit-file"
+                  >Attach a file to your booking (optional)</label
+                >
+                <input
+                  type="file"
+                  id="submit-file"
+                  name="submit-file"
+                  class="submit-file-input form-control"
+                />
+                <input
+                  type="submit"
+                  value="Submit Booking Request"
+                  class="submit-button form-control btn btn-dark mt-3"
+                />
+              </div>
+            </form>
+          </div>
         </div>
-        <div class="col-12 col-md-8 d-md-flex align-items-center">
-          <ul class="social-media-icons mb-0 ms-0 ms-md-5">
-            <li>
-              <a href="https://www.facebook.com/nadia.nsayi" target="_blank"
-                ><i class="fa-brands fa-facebook me-4 fs-5" title="Facebook"></i
-              ></a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/nadiansayi/" target="_blank"
-                ><i
-                  class="fa-brands fa-instagram me-4 fs-5"
-                  title="Instagram"
-                ></i
-              ></a>
-            </li>
-            <li>
-              <a
-                href="https://be.linkedin.com/in/nadia-nsayi-66a62388"
-                target="_blank"
-                ><i class="fa-brands fa-linkedin me-4 fs-5" title="LinkedIn"></i
-              ></a>
-            </li>
-          </ul>
+        <div class="col-6">
+          <img
+            src="images/picture-book-speaker.png"
+            alt="Nadia Nsayi speaking during Avansa’s Network Evening 2022"
+            class="picture-book-speaker img-fluid"
+          />
         </div>
-      </footer>
+      </div>
+
+      <div class="container">
+        <footer class="row align-items-center">
+          <div class="col-12 col-md-4">
+            <p class="copyright-mention mb-0">
+              © 2026 Nadia Nsayi. All rights reserved.
+            </p>
+          </div>
+          <div class="col-12 col-md-8 d-md-flex align-items-center">
+            <ul class="social-media-icons mb-0 ms-0 ms-md-5">
+              <li>
+                <a href="https://www.facebook.com/nadia.nsayi" target="_blank"
+                  ><i
+                    class="fa-brands fa-facebook me-4 fs-5"
+                    title="Facebook"
+                  ></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/nadiansayi/" target="_blank"
+                  ><i
+                    class="fa-brands fa-instagram me-4 fs-5"
+                    title="Instagram"
+                  ></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://be.linkedin.com/in/nadia-nsayi-66a62388"
+                  target="_blank"
+                  ><i
+                    class="fa-brands fa-linkedin me-4 fs-5"
+                    title="LinkedIn"
+                  ></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </div>
     </div>
   </body>
 </html>
