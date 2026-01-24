@@ -69,55 +69,64 @@
       </div>
     </nav>
     <div class="form-page-container">
-        <form action="" method="post">
-          <div class="form-group">
-            <h1 class="subscription-form-header">Subscribe to Nadia Nsayi’s Newsletter</h1>
+      <form
+        name="subscription-newsletter"
+        method="post"
+        data-netlify="true"
+        enctype="multipart/form-data"
+      >
+        <input type="hidden" name="form-name" value="subscription-newsletter" />
+        <div class="form-group">
+          <h1 class="subscription-form-header">
+            Subscribe to Nadia Nsayi’s Newsletter
+          </h1>
 
-            <div class="row">
-              <div class="col-6">
-                <label for="first-name">First name</label
-                ><input
-                  type="text"
-                  id="first-name"
-                  placeholder="e.g. Patrice"
-                  class="form-control"
-                  required
-                  minlength="2"
-                />
-              </div>
-              <div class="col-6">
-                <label for="last-name" class="last-name-form">Last name</label>
-                <input
-                  type="text"
-                  id="last-name"
-                  placeholder="e.g. Lumumba"
-                  class="form-control"
-                  required
-                  minlength="2"
-                />
-              </div>
+          <div class="row">
+            <div class="col-6">
+              <label for="first-name">First name</label
+              ><input
+                type="text"
+                id="first-name"
+                name="first-name"
+                placeholder="e.g. Patrice"
+                class="form-control"
+                required
+                minlength="2"
+              />
             </div>
-            <label for="email-address">Email address</label>
-            <input
-              type="email"
-              name=""
-              id="email-address"
-              placeholder="name@example.com"
-              class="form-control"
-              required
-            />
-            
-            <label for="consent">Sign up for the newsletter</label>
-         <input type="checkbox" name="consent" id="consent">
-
-            <input
-              type="submit"
-              value="Submit"
-              class="submit-button form-control btn btn-dark mt-3"
-            />
+            <div class="col-6">
+              <label for="last-name" class="last-name-form">Last name</label>
+              <input
+                type="text"
+                id="last-name"
+                name="last-name"
+                placeholder="e.g. Lumumba"
+                class="form-control"
+                required
+                minlength="2"
+              />
+            </div>
           </div>
-        </form>
-      </main>
+          <label for="email-address">Email address</label>
+          <input
+            type="email"
+            name="email-address"
+            id="email-address"
+            placeholder="name@example.com"
+            class="form-control"
+            required
+          />
+
+          <label for="consent">Sign up for the newsletter</label>
+          <input type="checkbox" name="consent" id="consent" checked />
+
+          <input
+            type="submit"
+            value="Submit"
+            class="submit-button form-control btn btn-dark mt-3"
+          />
+        </div>
+      </form>
     </div>
 
     <div class="container">

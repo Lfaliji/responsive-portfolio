@@ -69,55 +69,71 @@
       </div>
     </nav>
     <div class="form-page-container">
-        <form action="" method="post">
-          <div class="form-group">
-            <h1 class="pre-order-form-header">Reserve Your Signed Copy of <span class="book-title">Fille de la décolonisation</span></h1>
-<p>Pre-order a signed copy to secure your place among the first readers when the book is published in 2026. You will be contacted before release to confirm price and shipping details.</p>
-            <div class="row">
-              <div class="col-6">
-                <label for="first-name">First name</label
-                ><input
-                  type="text"
-                  id="first-name"
-                  placeholder="e.g. Patrice"
-                  class="form-control"
-                  required
-                  minlength="2"
-                />
-              </div>
-              <div class="col-6">
-                <label for="last-name" class="last-name-form">Last name</label>
-                <input
-                  type="text"
-                  id="last-name"
-                  placeholder="e.g. Lumumba"
-                  class="form-control"
-                  required
-                  minlength="2"
-                />
-              </div>
+      <form
+        name="order-signed-copy"
+        method="post"
+        data-netlify="true"
+        enctype="multipart/form-data"
+      >
+        <input type="hidden" name="form-name" value="order-signed-copy" />
+        <div class="form-group">
+          <h1 class="pre-order-form-header">
+            Reserve Your Signed Copy of
+            <span class="book-title">Fille de la décolonisation</span>
+          </h1>
+          <p>
+            Pre-order a signed copy to secure your place among the first readers
+            when the book is published in 2026. You will be contacted before
+            release to confirm price and shipping details.
+          </p>
+          <div class="row">
+            <div class="col-6">
+              <label for="first-name">First name</label
+              ><input
+                type="text"
+                id="first-name"
+                name="first-name"
+                placeholder="e.g. Patrice"
+                class="form-control"
+                required
+                minlength="2"
+              />
             </div>
-            <label for="email-address">Email address</label>
-            <input
-              type="email"
-              name=""
-              id="email-address"
-              placeholder="name@example.com"
-              class="form-control"
-              required
-            />
-            
-            <label for="consent"> Keep me informed about the release and pre-order details</label>
-         <input type="checkbox" name="updates" checked>
-
-            <input
-              type="submit"
-              value="Reserve a signed copy"
-              class="submit-button form-control btn btn-dark mt-3"
-            />
+            <div class="col-6">
+              <label for="last-name" class="last-name-form">Last name</label>
+              <input
+                type="text"
+                id="last-name"
+                name="last-name"
+                placeholder="e.g. Lumumba"
+                class="form-control"
+                required
+                minlength="2"
+              />
+            </div>
           </div>
-        </form>
-      </main>
+          <label for="email-address">Email address</label>
+          <input
+            type="email"
+            id="email-address"
+            name="email-address"
+            placeholder="name@example.com"
+            class="form-control"
+            required
+          />
+
+          <label for="updates">
+            Keep me informed about the release and pre-order details</label
+          >
+          <input type="checkbox" name="updates" id="updates" checked />
+
+          <input
+            type="submit"
+            value="Reserve a signed copy"
+            class="submit-button form-control btn btn-dark mt-3"
+          />
+        </div>
+      </form>
     </div>
 
     <div class="container">

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Get in touch with Nadia Nsayi for speaking engagements, media inquiries, collaborations, or general questions."
+      content="Sign up for Nadia Nsayi’s newsletter to receive updates, insights, and exclusive content via email."
     />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
@@ -29,7 +29,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="/src/styles.css" />
-    <title>Contact | Nadia Nsayi</title>
+    <title>Signed Edition Pre-Order | Fille de la décolonisation</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -68,106 +68,94 @@
         </div>
       </div>
     </nav>
-    <div class="contact-page-container">
-      <header>
-        <h1>Contact Nadia Nsayi</h1>
-        <p class="contact-page-header-paragraph">
-          For inquiries related to books, speaking engagements, interviews, or
-          research, you are welcome to get in touch via email by submitting the
-          contact form below or via social media.
-        </p>
-      </header>
-      <main class="contact-page-main">
-        <p>Nadia Nsayi can be contacted for:</p>
-        <ul>
-          <li>
-            Speaking engagements and conference invitations
-            <br />
-            (companies, schools, universities, and organisations)
-          </li>
-          <li>Book-related orders, inquiries and collaborations</li>
-          <li>Media and press requests</li>
-          <li>Interviews and public discussions</li>
-          <li>
-            Questions from students and researchers working on topics related to
-            Congo, decolonisation, and Congo–Belgium history
-          </li>
-        </ul>
-        <p>
-          Note: Conference talks and lectures are available in Dutch and French.
-        </p>
-        <form
-          name="contact-me"
-          method="post"
-          data-netlify="true"
-          enctype="multipart/form-data"
-        >
-          <input type="hidden" name="form-name" value="contact-me" />
-          <div class="form-group">
-            <h2 class="contact-form-header">Contact form</h2>
-
-            <div class="row">
-              <div class="col-6">
-                <label for="first-name">First name</label
-                ><input
-                  type="text"
-                  id="first-name"
-                  name="first-name"
-                  placeholder="e.g. Patrice"
-                  class="form-control"
-                  required
-                  minlength="2"
-                />
-              </div>
-              <div class="col-6">
-                <label for="last-name" class="last-name-form">Last name</label>
-                <input
-                  type="text"
-                  id="last-name"
-                  name="last-name"
-                  placeholder="e.g. Lumumba"
-                  class="form-control"
-                  required
-                  minlength="2"
-                />
-              </div>
+    <div class="form-page-container">
+      <form
+        name="book-speaker"
+        method="post"
+        data-netlify="true"
+        enctype="multipart/form-data"
+      >
+        <input type="hidden" name="form-name" value="book-speaker" />
+        <div class="form-group">
+          <h1 class="pre-order-form-header">Book Nadia Nsayi as a Speaker</h1>
+          <p>
+            Thank you for your interest in inviting Nadia Nsayi to speak at your
+            event. Please complete the form below with the details of your
+            request. You will be contacted as soon as possible.
+          </p>
+          <div class="row">
+            <div class="col-6">
+              <label for="first-name">First name</label
+              ><input
+                type="text"
+                id="first-name"
+                name="first-name"
+                placeholder="e.g. Patrice"
+                class="form-control"
+                required
+                minlength="2"
+              />
             </div>
-            <label for="email-address">Email address</label>
-            <input
-              type="email"
-              id="email-address"
-              name="email-address"
-              placeholder="name@example.com"
-              class="form-control"
-              required
-            />
-            <label for="form-message">Your message</label>
-            <textarea
-              id="form-message"
-              name="form-message"
-              placeholder="Briefly describe your question, message or order here, including relevant details."
-              required
-              minlength="20"
-              class="form-message form-control"
-            ></textarea>
-            <label for="submit-file"
-              >Attach a file to your message (optional)</label
-            >
-            <input
-              type="file"
-              id="submit-file"
-              name="submit-file"
-              class="submit-file-input form-control"
-            />
-
-            <input
-              type="submit"
-              value="Submit"
-              class="submit-button form-control btn btn-dark"
-            />
+            <div class="col-6">
+              <label for="last-name" class="last-name-form">Last name</label>
+              <input
+                type="text"
+                id="last-name"
+                name="last-name"
+                placeholder="e.g. Lumumba"
+                class="form-control"
+                required
+                minlength="2"
+              />
+            </div>
           </div>
-        </form>
-      </main>
+          <label for="organization-name" class="organization-name-form"
+            >Organization</label
+          >
+          <input
+            type="text"
+            id="organization-name"
+            name="organization-name"
+            placeholder="Name of company, school, or organization (optional)"
+            class="form-control"
+            minlength="2"
+          />
+          <label for="email-address">Email address</label>
+          <input
+            type="email"
+            name="email"
+            id="email-address"
+            placeholder="name@example.com"
+            class="form-control"
+            required
+          />
+
+          <label for="event-details">Event & Audience Details</label>
+          <textarea
+            id="event-details"
+            name="event-details"
+            placeholder="Briefly describe event date, location (or virtual platform), expected audience size, theme/topic, budget range, and any special notes."
+            minlength="20"
+            class="form-message form-control"
+            required
+          ></textarea>
+
+          <label for="submit-file"
+            >Attach a file to your booking (optional)</label
+          >
+          <input
+            type="file"
+            id="submit-file"
+            name="submit-file"
+            class="submit-file-input form-control"
+          />
+          <input
+            type="submit"
+            value="Submit Booking Request"
+            class="submit-button form-control btn btn-dark mt-3"
+          />
+        </div>
+      </form>
     </div>
 
     <div class="container">
