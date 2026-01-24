@@ -490,3 +490,7 @@ input {
   max-width: 500px;
   height: 595px;
 }
+
+.spam-filtering-box {
+  margin-top: 5px;
+}
