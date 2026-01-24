@@ -332,8 +332,8 @@ input {
   font-weight: 500;
 }
 .about-page-profile-image {
-  width: 584px;
-  height: 550px;
+  width: 384px;
+  height: 350px;
   margin-top: 21px;
   margin-bottom: 57px;
 }
@@ -455,7 +455,26 @@ input {
   padding: 40px;
 }
 
-
 .submit-file-input {
   max-width: 300px;
+}
+
+.form-page-container {
+  margin: 180px auto 0;
+
+  max-width: 500px;
+}
+
+.subscription-form-header {
+  font-size: 28px;
+  margin: 0;
+}
+
+.pre-order-form-header {
+  font-size: 28px;
+}
+
+.book-title {
+  font-style: italic;
+  opacity: 0.7;
 }
