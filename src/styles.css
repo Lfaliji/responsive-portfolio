@@ -494,3 +494,7 @@ input {
 .spam-filtering-box {
   margin-top: 5px;
 }
+
+.honeypot {
+  display: none;
+}

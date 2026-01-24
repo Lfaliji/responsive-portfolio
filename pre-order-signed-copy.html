@@ -76,11 +76,18 @@
         name="order-signed-copy"
         method="post"
         data-netlify="true"
-        netlify
+        netlify-honeypot="bot-field"
         enctype="multipart/form-data"
       >
         <input type="hidden" name="form-name" value="order-signed-copy" />
         
+<div class="honeypot">
+  <label>
+    Don’t fill this out:
+    <input name="bot-field" />
+  </label>
+</div>
+
         <div class="form-group">
           <h1 class="pre-order-form-header">
             Reserve Your Signed Copy of
