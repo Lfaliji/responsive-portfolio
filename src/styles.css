@@ -376,7 +376,7 @@ input {
 
 .about-page-main-subtitle-paragraph {
   font-size: 24px;
-  color: var(--color-grey-text);
+  color: var(--color-black);
 }
 
 .about-page-conference-section {
@@ -497,4 +497,10 @@ input {
 
 .honeypot {
   display: none;
+}
+
+.unsubscribe-footer {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
 }
