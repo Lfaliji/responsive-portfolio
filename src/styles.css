@@ -502,7 +502,7 @@ input {
     margin-right: 30px;
   }
 
-  /* responsiveness order page */
+  /* responsiveness pre-order-signed-copy page */
 
   .picture-new-book-release {
     display: none;
@@ -525,7 +525,7 @@ input {
     font-size: 12px;
   }
 
-  /* responsiveness newsletter page */
+  /* responsiveness subscribe-to-newsletter page */
 
   small {
     font-size: 10px;
@@ -538,6 +538,51 @@ input {
     font-size: 18px;
     line-height: var(--line-height);
   }
+
+  /* responsiveness unsubscribe-to-newsletter page */
+
+  .newsletter-unsubscribe {
+    margin: 160px 20px 0;
+  }
+
+    /* responsiveness contact page */
+
+  .contact {
+    margin: 160px 20px 0;
+  }
+
+  .contact-header{
+    font-size: 32px;
+  }
+
+  .contact-page-header-paragraph{
+    font-size: 16px;
+  }
+
+  .contact-page-main{
+    font-size: 12px;
+  }
+
+  .contact-form-header{
+    margin: 0;
+  }
+
+  .contact-page-container .form-control {
+    font-size: 12px;
+  }
+
+  .contact-page-main{
+    margin-top: 50px;
+  }
+
+  .contact-form{
+    margin-top: 50px;
+  }
+
+.submit-margin{
+  margin-bottom: 0;
+}
+
 }
 
 @media (min-width: 992px) {
