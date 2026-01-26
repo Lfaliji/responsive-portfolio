@@ -77,6 +77,10 @@ h3 {
   margin-left: -40px;
 }
 
+.new-book-cover-description-paragraph{
+  font-size: 16px;
+}
+
 .newsletter-subscription {
   margin: 80px auto 0;
   max-width: 900px;
