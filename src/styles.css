@@ -521,15 +521,11 @@ input {
   }
 
   .credits {
-    font-size: 11px;
+    font-size: 9px;
     padding: 30px;
   }
 
   /* responsiveness pre-order-signed-copy page */
-
-  .credits-correction {
-    font-size: 9px;
-  }
 
   .picture-new-book-release {
     display: block;
