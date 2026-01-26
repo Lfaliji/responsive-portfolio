@@ -401,9 +401,13 @@ input {
 }
 
 @media (max-width: 576px) {
+  /* responsiveness navbar to avoid overlap with content on top page */
+
   body {
     padding-top: 150px;
   }
+
+  /* responsiveness homepage */
 
   .homepage-hero {
     margin: 150px 0 0 0;
@@ -726,7 +730,7 @@ input {
     display: block;
     margin: 0 auto 0;
     margin-bottom: 40px;
-    max-width: 80%;
+    max-width: 50%;
     height: auto;
   }
 
