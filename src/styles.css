@@ -512,15 +512,15 @@ input {
     height: auto;
   }
 
-.submit-alignement{
-margin-bottom: 40px;
-}
+  .submit-alignement {
+    margin-bottom: 40px;
+  }
   .form-page-container {
     margin-top: 150px;
   }
 
   .pre-order-form-header {
-    font-size: 24px;
+    font-size: 25px;
     line-height: var(--line-height);
   }
 
