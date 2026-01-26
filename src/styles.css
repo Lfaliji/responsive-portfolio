@@ -545,25 +545,25 @@ input {
     margin: 160px 20px 0;
   }
 
-    /* responsiveness contact page */
+  /* responsiveness contact page */
 
   .contact {
     margin: 160px 20px 0;
   }
 
-  .contact-header{
+  .contact-header {
     font-size: 32px;
   }
 
-  .contact-page-header-paragraph{
+  .contact-page-header-paragraph {
     font-size: 16px;
   }
 
-  .contact-page-main{
+  .contact-page-main {
     font-size: 12px;
   }
 
-  .contact-form-header{
+  .contact-form-header {
     margin: 0;
   }
 
@@ -571,18 +571,83 @@ input {
     font-size: 12px;
   }
 
-  .contact-page-main{
+  .contact-page-main {
     margin-top: 50px;
   }
 
-  .contact-form{
+  .contact-form {
     margin-top: 50px;
   }
 
-.submit-margin{
-  margin-bottom: 0;
-}
+  .submit-margin {
+    margin-bottom: 0;
+  }
 
+  /* responsiveness books page */
+
+  .books-header {
+    margin-left: 30px;
+  }
+
+  .books-header-header {
+    font-size: 15px;
+  }
+
+  .books-subtitle-header {
+    margin-left: 0;
+    margin-bottom: 10px;
+    font-size: 19px;
+    font-weight: 700;
+  }
+
+  .books-paragraph {
+    font-size: 16px;
+  }
+
+  .btn-grey {
+    padding: 8px 15px;
+  }
+
+  .btn-link {
+    font-size: 14px;
+  }
+
+  .books-image-1 {
+    display: block;
+    margin-left: 30px;
+    margin-bottom: 0;
+    margin-top: -30px;
+    max-width: 150px;
+    height: auto;
+  }
+
+  .book-description-1 {
+    margin-top: 0;
+  }
+
+  .books-image-2 {
+    display: block;
+    margin-left: 30px;
+    margin-bottom: 0;
+    max-width: 150px;
+    height: auto;
+  }
+
+  .books-image-3 {
+    display: block;
+    margin-left: 30px;
+    margin-bottom: 0;
+    max-width: 150px;
+    height: auto;
+  }
+
+  .book-description-3 {
+    margin-bottom: -50px;
+  }
+
+  .books-spacing {
+    margin-top: 160px;
+  }
 }
 
 @media (min-width: 992px) {
