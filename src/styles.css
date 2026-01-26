@@ -505,9 +505,16 @@ input {
   /* responsiveness pre-order-signed-copy page */
 
   .picture-new-book-release {
-    display: none;
+    display: block;
+    margin: 0 auto 0;
+    margin-bottom: 40px;
+    max-width: 50%;
+    height: auto;
   }
 
+.submit-alignement{
+margin-bottom: 40px;
+}
   .form-page-container {
     margin-top: 150px;
   }
@@ -528,7 +535,7 @@ input {
   /* responsiveness subscribe-to-newsletter page */
 
   small {
-    font-size: 10px;
+    font-size: 9px;
   }
   .newsletter {
     margin: 160px 20px 0;
@@ -647,6 +654,70 @@ input {
 
   .books-spacing {
     margin-top: 160px;
+  }
+
+  /* responsiveness about page */
+
+  .about {
+    margin: 160px 30px 0;
+  }
+
+  .about-page-profile-image {
+    display: block;
+    margin: 10px 0;
+    max-width: 90%;
+    height: auto;
+  }
+
+  .about-page-speaker-image {
+    display: block;
+    margin: 0;
+    margin-bottom: 10px;
+    max-width: 80%;
+    height: auto;
+  }
+
+  .about-header {
+    font-size: 32px;
+  }
+
+  .about-page-header-subtitle {
+    font-size: 15px;
+  }
+
+  .about-page-header-paragraph {
+    font-size: 15px;
+  }
+
+  .about-page-btn {
+    padding: 5px 10px;
+    font-size: 15px;
+  }
+
+  .about-page-main-header {
+    margin-left: 0;
+    font-size: 23px;
+    font-weight: 600;
+  }
+
+  .about-page-conference-section {
+    padding: 0;
+    margin-left: 15px;
+  }
+  .about-page-main-subtitle {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .about-page-main-subtitle-paragraph {
+    font-size: 15px;
+  }
+
+  .about-header-margin {
+    margin-bottom: -50px;
+  }
+
+  .about-page-conference-section {
+    margin-bottom: -30px;
   }
 }
 
