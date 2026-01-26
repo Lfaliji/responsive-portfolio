@@ -719,6 +719,20 @@ input {
   .about-page-conference-section {
     margin-bottom: -30px;
   }
+
+  /* responsiveness book-speaker page */
+
+  .picture-book-speaker {
+    display: block;
+    margin: 0 auto 0;
+    margin-bottom: 40px;
+    max-width: 80%;
+    height: auto;
+  }
+
+  .book-speaker-focus {
+    margin-bottom: 0;
+  }
 }
 
 @media (min-width: 992px) {
